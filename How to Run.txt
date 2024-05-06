@@ -1,0 +1,56 @@
+Member Names 		     ID
+
+Anirudh Mishra		2020B4A72169H
+Arkodipto Dutta 	2020B4A72177H
+Parth Gupta		2020B4A72235H
+Siddharth Jain		2020B3A72359H
+Sushant Chaudhary	2020B5A72251H
+
+Compilation of Task 1
+1.	flex S2A24444.l
+2.	gcc -o lexer lex.yy.c -lfl
+3.	./lexer input.txt
+
+In the above step 3 "input.txt" is the file name from which the input is being taken. The file name cane be anything replace "input.txt" with your desired input file name. 
+
+Note:	The file from which the input is being taken, in my case "input.txt", it should be in the same folder in which the lexer.out is present.
+
+Compilation of Task 2
+1.	flex S2A24444_LEX.l
+2.	yacc -d S2A24444_YACC.y
+3.	gcc lex.yy.c y.tab.c -o parser -lfl -lm
+4.	./parser input.txt
+
+In the above step 4 "input.txt" is the file name from which the input is being taken. The file name cane be anything replace "input.txt" with your desired input file name. 
+
+Note:	The file from which the input is being taken, in my case "input.txt", it should be in the same folder in which the parser.out is present.
+
+Compilation of Task 3
+1.	flex S2A24444.l
+2.	yacc -d S2A24444.y
+3.	gcc lex.yy.c y.tab.c -o parser -lfl -lm
+4.	./parser input.txt
+
+In the above step 4 "input.txt" is the file name from which the input is being taken. The file name cane be anything replace "input.txt" with your desired input file name. 
+
+Note:	The file from which the input is being taken, in my case "input.txt", it should be in the same folder in which the parser.out is present. No AST will be printed but if there are no syntax error then we will get a prompt "valid input" in the terminal,in case of semantic errors,then all be will printed.
+
+Compilation of Task 4
+1.	flex S2A24444.l
+2.	yacc -d S2A24444.y
+3.	gcc lex.yy.c y.tab.c -o parser -lfl -lm
+4.	./parser input.txt
+
+In the above step 4 "input.txt" is the file name from which the input is being taken. The file name cane be anything replace "input.txt" with your desired input file name. 
+
+Note:	The file from which the input is being taken, in my case "input.txt", it should be in the same folder in which the parser.out is present.
+
+Compilation of Task 5symbo
+1.	flex S2A24444.l
+2.	yacc -d S2A24444.y
+3.	gcc lex.yy.c y.tab.c -o parser -lfl -lm
+4.	./parser input.txt
+
+In the above step 4 "input.txt" is the file name from which the input is being taken. The file name cane be anything replace "input.txt" with your desired input file name. 
+
+Note:	The file from which the input is being taken, in my case "input.txt", it should be in the same folder in which the parser.out is present. Symbol table will be printed iff there are no syntax and semantic error in the input.
