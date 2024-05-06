@@ -1,11 +1,3 @@
-Member Names 		     ID
-
-Anirudh Mishra		2020B4A72169H
-Arkodipto Dutta 	2020B4A72177H
-Parth Gupta		2020B4A72235H
-Siddharth Jain		2020B3A72359H
-Sushant Chaudhary	2020B5A72251H
-
 Compilation of Task 1
 1.	flex S2A24444.l
 2.	gcc -o lexer lex.yy.c -lfl
